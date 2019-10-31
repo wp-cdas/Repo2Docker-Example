@@ -2,8 +2,10 @@
 #Use this file to run commands after the build.
 
 #Since I installed jupyterlab-git, I wanted to rebuild jupyterlab so I run:
-jupyter lab build 
+jupyter lab build
 
 #Let's say I want to clone a repository of my work so I can edit my files and push my changes back to GitHub.
-git config --global user.name "Username"
+#First I set my GitHub username:
+git config --global user.name "wp-cdas"
+#Then I clone the repo into my home folder:
 git clone 'https://github.com/wp-cdas/ExampleRepo.git' '$HOME'
