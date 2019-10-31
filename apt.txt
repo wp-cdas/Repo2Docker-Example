@@ -1,0 +1,4 @@
+#Use this file to install files with Ubuntu's package manager "apt"
+
+#You can just list the package names here:
+

@@ -1,6 +1,11 @@
+#The file is used for specifying a Conda environment for your container.  While you can choose to use
+#pip (python's default packages manager), we encourage you to get comfortable with Conda.
+
+
 name: example-environment
 channels:
   - conda-forge
 dependencies:
+#These two dependencies should always be included unless you have a particular reason to remove them.
   - jupyterhub
   - jupyterlab-git

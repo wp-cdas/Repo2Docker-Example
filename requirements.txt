@@ -1,0 +1,2 @@
+#Use this file if you want to specify your dependencies to be installed using pip. It will be processed after 
+#environment.yml so this file will not take priority in any conflicts.

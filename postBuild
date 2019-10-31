@@ -1,2 +1,5 @@
 #!/bin/bash
- 
+#Use this file to run commands after the build.
+
+#Since I installed jupyterlab-git, I wanted to rebuild jupyterlab so I run:
+jupyter lab build 
