@@ -1,2 +1,6 @@
-jupyterhub
-jupyterlab-git
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - jupyterhub
+  - jupyterlab-git
