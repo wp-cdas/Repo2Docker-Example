@@ -5,4 +5,5 @@
 jupyter lab build 
 
 #Let's say I want to clone a repository of my work so I can edit my files and push my changes back to GitHub.
+git config --global user.name "Username"
 git clone 'https://github.com/wp-cdas/ExampleRepo.git' '$HOME'
