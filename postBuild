@@ -5,5 +5,4 @@
 jupyter lab build
 
 #Let's say I want to clone a repository of my work so I can edit my files and push my changes back to GitHub.
-git clone git://github.com/wp-cdas/ExampleRepo.git
-#Notice I use the git:// link
+git clone https://github.com/wp-cdas/ExampleRepo.git
