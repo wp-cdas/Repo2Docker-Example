@@ -1,8 +1,10 @@
 #!/bin/bash
 #Use this file to run commands after the build.
 
+##You should leave the following block of code in your repository to allow GitHub integration.
 #Since I installed jupyterlab-git, I wanted to rebuild jupyterlab so I run:
 jupyter lab build
+##
 
 #Let's say I want to clone a repository of my work so I can edit my files and push my changes back to GitHub.
 git clone https://github.com/wp-cdas/ExampleRepo.git
