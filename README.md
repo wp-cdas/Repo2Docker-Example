@@ -16,4 +16,4 @@ Here are the uses of the configuration files most commonly used (in rough order 
 - **install.R** - Installing a R/RStudio environment
 - **apt.txt** - Installing Ubuntu packages
 - **postBuild** - Operations you need run after your container has been built
-
+- **start** - Operations you need to run on container start
