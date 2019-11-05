@@ -13,4 +13,5 @@ dependencies:
   - pip:
     - git+https://github.com/jupyterlab/jupyterlab-git.git
   - tensorflow-gpu
+  - cudatoolkit
  ### You can add more below in the same format (eg. - packagename)
