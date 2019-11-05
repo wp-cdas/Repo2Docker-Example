@@ -1,13 +1,2 @@
 #!/bin/bash
-### Leave these lines to allow usage of the GPU
-# Allow drivers installed by the nvidia-driver-installer to be located
-#export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/nvidia/lib64
-# Also, utilities like `nvidia-smi` are installed here
-#export PATH=${PATH}:/usr/local/nvidia/bin
-#export NVIDIA_VISIBLE_DEVICES=all
-#export NVIDIA_DRIVER_CAPABILITIES=compute,utility
-#export NVIDIA_REQUIRE_CUDA="cuda>=10.1 brand=tesla,driver>=384,driver<385 brand=tesla,driver>=396,driver<397 brand=tesla,driver>=410,driver<411"
-###
 
-
-exec "$@"
