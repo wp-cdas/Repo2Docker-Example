@@ -13,7 +13,6 @@ Here are the uses of the configuration files most commonly used (in rough order 
 
 - **environment.yml** - Using Conda to install a python environment and dependencies
 - **requirements.txt** - Using PIP (python's built-in package manager) to install dependencies
-- **install.R** - Installing a R/RStudio environment
 - **apt.txt** - Installing Ubuntu packages
 - **postBuild** - Operations you need run after your container has been built
 - **start** - Operations you need to run on container start
