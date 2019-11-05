@@ -6,9 +6,11 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-#These two dependencies should always be included unless you have a particular reason to remove them.
+###These dependencies should always be included unless you have a particular reason to remove them.
   - jupyterlab==1.2.0
   - git
   - pip
   - pip:
     - git+https://github.com/jupyterlab/jupyterlab-git.git
+  - tensorflow-gpu
+ ### You can add more below in the same format (eg. - packagename)
