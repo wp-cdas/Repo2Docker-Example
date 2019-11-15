@@ -11,7 +11,7 @@ on to the DSP you merely provide the GitHub URL and the DSP will do the rest and
 
 Here are the uses of the configuration files most commonly used (in rough order of build priority):
 
-- **environment.yml** - Using Conda to install a python environment and dependencies **Highly recommended to use this for package install (even for pip installs).**.
+- **environment.yml** - Using Conda to install a python environment and dependencies **Highly recommended to use this for python package install (even for pip installs)**.
 - **requirements.txt** - Using PIP (python's built-in package manager) to install dependencies
 - **apt.txt** - Installing Ubuntu packages
 - **postBuild** - Operations you need to run after your container has been built
